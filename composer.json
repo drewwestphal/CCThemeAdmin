@@ -8,6 +8,12 @@
     "require": {
       "webdevstudios/cmb2": "2.0.*",
       "composer/installers": "~1.0"
+    },
+    "extra": {
+      "installer-paths": {
+        "CCWPOptions/{$name}/": ["webdevstudios/cmb2"]
+      }
     }
+
   }
 }
