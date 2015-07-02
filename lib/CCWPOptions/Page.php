@@ -74,12 +74,6 @@ class CCWPOptions_Page {
             $this,
             'add_options_page_metabox'
         ));
-        add_filter('cmb2_meta_box_url', function ($url) {
-            // this function is retardedly implemented...
-            // gives me great faith in the rest of their work!
-            return plugins_url() . '/cmb2';
-        });
-
     }
 
     /**
